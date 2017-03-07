@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title></title>
+	<link rel="stylesheet" type="text/css" href="style/css/style.css">
 </head>
 <body>
 
@@ -50,7 +51,25 @@
 		 $int2 = 5467;
 		 echo "$int2 </br>";
 		 ?>
+	</div>
+
+	<div id="exo6">
+		<?php
+		$nom2 = 'george';
+		echo "Bonjour " .$nom2. " comment vas tu ?";
+		?>
 	</div>	
-	 
+
+	<div id="exo7">
+		
+		<?php
+		$nom3 = 'gogo';
+		$prenom3 = 'bertrand';
+		$age3 = 47;
+		echo "Bonjour ".$nom3."\n".$prenom3." tu as ".$age3.".";
+		?>
+
+	</div>
+
 </body>
 </html>
