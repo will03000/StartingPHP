@@ -2,11 +2,12 @@
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="../style/style.css">
+
 </head>
 <body>
 
 	<a href="variable.php">exo1</a>
+	<a href="conditions.php">exo2</a>
 
 
 </body>
