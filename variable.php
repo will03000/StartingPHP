@@ -46,8 +46,8 @@
 
 	<div id="exo5">
 		 <?php
-		 $int2 = null;
-		 echo $int2;
+		 $int2 = (int)NULL;
+		 echo "$int2 </br>";
 		 $int2 = 5467;
 		 echo "$int2 </br>";
 		 ?>
@@ -69,6 +69,21 @@
 		echo "Bonjour ".$nom3."\n".$prenom3." tu as ".$age3.".";
 		?>
 
+	</div>
+
+	<div>
+		
+	<?php
+	$ope = (3+4);
+	echo "$ope </br>"; 
+
+	$ope2 = (5 * 20);
+	echo "$ope2 </br>";
+
+	$ope3 = (45 / 5);
+	echo "$ope3 </br>";
+
+	?>
 	</div>
 
 </body>
