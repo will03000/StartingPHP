@@ -1,19 +1,19 @@
 <?php
 $nom = 'william';
-echo $nom;
+echo "$nom </br>";
 ?>
 
 <?php
 $nom = 'legal';
 $prenom = 'william';
 $age = 22;
-echo $nom ,$prenom ,$age;
+echo "$nom </br> $prenom </br> $age </br>";
 ?>
 <?php 
 $kilometre = 1;
-echo $kilometre;
+echo " $kilometre </br>";
 $kilometre = 3;
-echo $kilometre;
+echo "$kilometre </br>";
 $kilometre= 125;
 echo $kilometre;
  ?>
