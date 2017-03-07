@@ -1,3 +1,4 @@
+
 <?php
 $nom = 'william';
 echo "$nom </br>";
@@ -15,5 +16,13 @@ echo " $kilometre </br>";
 $kilometre = 3;
 echo "$kilometre </br>";
 $kilometre= 125;
-echo $kilometre;
+echo "$kilometre </br>";
+ ?>
+
+ <?php
+ $string = 'boubou';
+ $int = 22;
+ $float = 3.2345;
+ $boolean = true;
+ echo "$string </br> $int </br> $float </br> $boolean";
  ?>
