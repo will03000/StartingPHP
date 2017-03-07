@@ -66,7 +66,7 @@
 		$nom3 = 'gogo';
 		$prenom3 = 'bertrand';
 		$age3 = 47;
-		echo "Bonjour ".$nom3."\n".$prenom3." tu as ".$age3.".";
+		echo "Bonjour ".$nom3."\n".$prenom3." tu as ".$age3." ans.";
 		?>
 
 	</div>
