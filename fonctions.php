@@ -61,5 +61,15 @@
 		?>
 	</div>
 
+	<div>
+		
+		<?php
+		function phrase($nom,$prenom,$age){
+			return 'Bonjour '.$nom.' '.$prenom.' tu as '.$age.' ans.';
+		}
+		echo phrase('legal','william',22);
+		?>
+	</div>
+
 </body>
 </html>
