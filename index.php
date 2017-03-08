@@ -12,6 +12,7 @@
 	<a href="fonctions.php">exo4</a>
 	<a href="tableaux.php">exo5</a>
 	<a href="parametres.php">exo6</a>
+	<a href="formulaire.php">exo7</a>
 
 
 </body>
