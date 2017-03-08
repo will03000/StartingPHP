@@ -51,16 +51,15 @@
 
 	<div>
 		<?php
-		for ($i=0; $i < 15; $i++) { 
+		for ($i=0; $i <= 15; $i++) { 
 			echo "on y arrive presque </br>";
 		}
 		?>
 	</div>
 
 	<div>
-	
 		<?php
-		for ($i=20; $i > 0; $i--) { 
+		for ($i=20; $i >= 0; $i--) { 
 			echo "c'est presque bon </br>";
 		}
 		?>
