@@ -26,5 +26,39 @@
 		?>
 	</div>
 	
+	<div>
+		<?php
+		$var3 = 100;
+		$var4 = 50;
+		while ( $var3 >= 10) {
+			echo ($var3 * $var4);
+			$var3--;
+		}
+		?>
+	</div>
+
+
+	<div>
+		<?php
+		$var5 = 1;
+		while ( $var5 <= 10) {
+			echo $var5;
+			$var5 += $var5 / 2;
+		}
+
+		?>
+	</div>
+
+en allant de 1 à 15 pas de 1
+echo on y arrive presque
+
+	<div>
+		<?php
+		for ($i=0; $i < 15; $i++) { 
+			echo "on y arrive presque </br>";
+		}
+		?>
+	</div>
+
 </body>
 </html>
