@@ -75,5 +75,14 @@ $tabdep = array(
 	?>
 </div>
 
+<div>
+	<?php
+	$tab = array('janvier ','février ','mars ','avril ','mai ','juin ','juillet ','aout ','septembre ','octobre ','novembre ','décembre');
+	foreach ($tab as $value) {
+		echo $value;
+	}
+	?>
+</div>
+
 </body>
 </html>
