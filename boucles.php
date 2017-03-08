@@ -65,5 +65,14 @@
 		?>
 	</div>
 
+	<div>
+	
+		<?php
+		for ($i=1; $i <= 100 ; $i += 15) { 
+			echo "on tient le bambou </br>";
+		}
+		?>
+	</div>
+
 </body>
 </html>
