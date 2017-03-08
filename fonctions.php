@@ -10,7 +10,7 @@
 		function caca(){
 			return true;
 		}
-
+		echo caca();
 		?>
 	</div>
 
