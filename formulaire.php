@@ -10,7 +10,13 @@
 if (isset($_GET['nom']) && isset($_GET['prenom']) && isset($_GET['civilité']) && isset($_GET['fichier'])) :
 ?>
 Bonjour, <?= $_GET['civilité'];?> <?= $_GET['nom']; ?> <?= $_GET['prenom']; ?>
-<?= $_GET['fichier'];?>
+<?php
+$fichier = explode('.',$_GET['fichier']);
+if ($fichier[1] == 'pdf') {
+	echo $_GET['fichier'];
+	
+}?>
+
 
 <?php else : ?>
 	<form action="users.php" method="get">
