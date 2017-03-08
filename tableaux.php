@@ -84,5 +84,27 @@ $tabdep = array(
 	?>
 </div>
 
+<div>
+	<?php
+	$tabdep = array(
+		59 => 'Nord',
+		02=>'Aisne',
+		80=>'Somme',
+		60=>'Oise',
+		62=>'Pas-de-Calais',
+		51=>'Marne',
+		);
+	print_r($tabdep);
+	?>
+</div>
+
+<div>
+	<?php
+	foreach ($tabdep as $key => $value) {
+		echo "le département ".$value." a pour numéro ".$key.". </br>";
+	}
+	?>
+</div>
+
 </body>
 </html>
