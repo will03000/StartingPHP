@@ -49,13 +49,19 @@
 		?>
 	</div>
 
-en allant de 1 à 15 pas de 1
-echo on y arrive presque
-
 	<div>
 		<?php
 		for ($i=0; $i < 15; $i++) { 
 			echo "on y arrive presque </br>";
+		}
+		?>
+	</div>
+
+	<div>
+	
+		<?php
+		for ($i=20; $i > 0; $i--) { 
+			echo "c'est presque bon </br>";
 		}
 		?>
 	</div>
