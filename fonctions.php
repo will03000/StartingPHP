@@ -14,5 +14,14 @@
 		?>
 	</div>
 
+	<div>
+		<?php
+		function boom($caca='boom'){
+			return $caca;
+		}
+		echo boom();
+		?>
+	</div>
+
 </body>
 </html>
