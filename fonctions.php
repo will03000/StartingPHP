@@ -16,10 +16,10 @@
 
 	<div>
 		<?php
-		function boom($caca='boom'){
+		function boom($caca){
 			return $caca;
 		}
-		echo boom();
+		echo boom('boom');
 		?>
 	</div>
 
