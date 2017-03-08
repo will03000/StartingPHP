@@ -10,6 +10,7 @@
 	<a href="conditions.php">exo2</a>
 	<a href="boucles.php">exo3</a>
 	<a href="fonctions.php">exo4</a>
+	<a href="tableaux.php">exo5</a>
 
 
 </body>

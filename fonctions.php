@@ -71,5 +71,22 @@
 		?>
 	</div>
 
+	<div>
+		<?php
+		function majeur($Age,$genre){
+			if ($genre!='homme') {
+				$genre = 'femme';
+			}
+			if ($Age>18) {
+				$Age='majeur';
+			}else{
+				$Age='mineur';
+			}
+			return 'Vous êtes un/une '.$genre.' vous êtes '.$Age.'.';
+		}
+		echo majeur(15,'homme');
+		?>
+	</div>
+
 </body>
 </html>
