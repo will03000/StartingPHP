@@ -14,7 +14,6 @@ Bonjour, <?= $_GET['civilité'];?> <?= $_GET['nom']; ?> <?= $_GET['prenom']; ?>
 $fichier = explode('.',$_GET['fichier']);
 if ($fichier[1] == 'pdf') {
 	echo $_GET['fichier'];
-	
 }?>
 
 
@@ -38,7 +37,7 @@ if ($fichier[1] == 'pdf') {
  </select>
  <p>Votre nom : <input type="text" name="nom" /></p>
  <p>Votre prénom : <input type="text" name="prenom" /></p>
-<input type="file" name="fichier"/>
+	<input type="file" name="fichier"/>
  <p><input type="submit" value="OK"></p>
 </form>
 <? endif; ?>

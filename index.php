@@ -13,7 +13,7 @@
 	<a href="tableaux.php">exo5</a>
 	<a href="parametres.php">exo6</a>
 	<a href="formulaire.php">exo7</a>
-
+	<a href="superglobal.php">exo8</a>
 
 </body>
 </html>
