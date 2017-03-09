@@ -6,3 +6,7 @@
 	echo $_SESSION['age'];
 
 ?>
+<?php
+echo $_COOKIE['login'];
+echo $_COOKIE['password'];
+?>

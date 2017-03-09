@@ -4,6 +4,12 @@
 	$_SESSION['nom'] = 'Dupont';
 	$_SESSION['age'] = 24;
 	?>
+	<?php
+	if (isset($_POST['login']) && isset($_POST['password'])) {
+		setcookie('login',$_POST['login']);
+		setcookie('password',$_POST['password']);
+	}
+	?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,7 +23,15 @@
 	echo $_SERVER['SERVER_NAME'];
 	?>
 
-	passer var nom prénom age avec session
-	
+	<form action="superglobal.php" method="post">
+ <p>Votre login: <input type="text" name="login" /></p>
+ <p>Votre password : <input type="text" name="password" /></p>
+ <p><input type="submit" value="OK"></p>
+</form>
+	<?php
+
+echo $_COOKIE['login'];
+echo $_COOKIE['password'];
+?>
 </body>
 </html>
