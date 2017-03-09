@@ -14,6 +14,6 @@
 	<a href="parametres.php">exo6</a>
 	<a href="formulaire.php">exo7</a>
 	<a href="superglobal.php">exo8</a>
-
+	<a href="superglobal2.php">exo8.1</a>
 </body>
 </html>
