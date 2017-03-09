@@ -15,5 +15,6 @@
 	<a href="formulaire.php">exo7</a>
 	<a href="superglobal.php">exo8</a>
 	<a href="superglobal2.php">exo8.1</a>
+	<a href="date.php">exo9</a>
 </body>
 </html>
