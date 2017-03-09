@@ -19,7 +19,17 @@ echo mktime(15, 34, 12, 3, 2, 2016).'<br>';
 $datetime1 = new DateTime('2016-05-16');
 $datetime2 = new DateTime();
 $interval = $datetime1->diff($datetime2);
-echo $interval->format('%R%a jours');
+echo $interval->format('%R%a jours').'<br>';
+
+echo cal_days_in_month(CAL_GREGORIAN, 2, 2016).'<br>';
+
+$date = new DateTime();
+$date->add(new DateInterval('P20D'));
+echo $date->format('Y-m-d') . '<br>';
+
+$date = new DateTime();
+$date->sub(new DateInterval('P22D'));
+echo $date->format('Y-m-d') . '<br>';
 
 
  ?>
