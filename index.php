@@ -16,5 +16,6 @@
 	<a href="superglobal.php">exo8</a>
 	<a href="superglobal2.php">exo8.1</a>
 	<a href="date.php">exo9</a>
+	<a href="tpdate.php">exo10</a>
 </body>
 </html>

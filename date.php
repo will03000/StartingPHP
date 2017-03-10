@@ -32,4 +32,7 @@ $date->sub(new DateInterval('P22D'));
 echo $date->format('Y-m-d') . '<br>';
 
 
+echo cal_days_in_month(CAL_GREGORIAN, 2, 1999);
+
  ?>
+	 
